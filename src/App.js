@@ -1,13 +1,11 @@
+import code from "./images/code.png";
+
 function App() {
   return (
     <div className="container-wrapper flex items-center justify-center  ">
       <div className="flex items-center justify-center px-5  ">
         <div className="container p-4  flex items-center flex-col  justify-center rounded-3xl   h-full">
-          <img
-            src="/images/image-qr-code.png"
-            className="w-100 rounded-xl "
-            alt="image"
-          />
+          <img src={code} className="w-100 rounded-xl " alt="scan" />
           <div>
             <h1 className="main-h pt-5  ">
               Improve your front-end
