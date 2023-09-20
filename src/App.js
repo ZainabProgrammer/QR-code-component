@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-wrapper flex items-center justify-center  ">
+      <div className="flex items-center justify-center px-5  ">
+        <div className="container p-4  flex items-center flex-col  justify-center rounded-3xl   h-full">
+          <img
+            src="/images/image-qr-code.png"
+            className="w-100 rounded-xl "
+            alt="image"
+          />
+          <div>
+            <h1 className="main-h pt-5  ">
+              Improve your front-end
+              <br />
+              skills by building projects
+            </h1>
+            <p className="sub-h py-3 ">
+              Scan the QR code to visit Frontend
+              <br />
+              Mentor and take your coding skills to
+              <br />
+              the next level
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
